@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey[100],
       appBar: AppBar(
-        title: Text("Task Manager"),
+        title: Text(style: TextStyle(color:Colors.white70 ),"Task Manager"),
         centerTitle: true,
         backgroundColor: Colors.deepPurple,
         elevation: 0,
@@ -68,8 +68,8 @@ class HomeScreen extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton.extended(
         backgroundColor: Colors.deepPurple,
-        icon: Icon(Icons.add),
-        label: Text("New Task"),
+        icon:  Icon(Icons.add),
+        label: Text(style: TextStyle(color: Colors.white70),"New Task"),
         onPressed: () {
           showDialog(
             context: context,
