@@ -68,7 +68,7 @@ class HomeScreen extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton.extended(
         backgroundColor: Colors.deepPurple,
-        icon:  Icon(Icons.add),
+        icon:  Icon(Icons.add, color: Colors.white70,),
         label: Text(style: TextStyle(color: Colors.white70),"New Task"),
         onPressed: () {
           showDialog(
