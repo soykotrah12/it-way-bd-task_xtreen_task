@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-
 import 'package:xtreem_task/api.dart';
 import 'package:xtreem_task/task.dart';
+
+
 class TaskProvider extends ChangeNotifier {
   List<Task> tasks = [];
   bool isLoading = false;

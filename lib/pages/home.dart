@@ -87,14 +87,14 @@ class HomeScreen extends StatelessWidget {
               ),
               actions: [
                 TextButton(
-                  child: Text("Cancel"),
+                  child: Text(style: TextStyle(color: Colors.white70),"Cancel"),
                   onPressed: () => Navigator.pop(context),
                 ),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.deepPurple,
                   ),
-                  child: Text("Add"),
+                  child: Text(style: TextStyle(color: Colors.white70),"Add"),
                   onPressed: () {
                     if (_controller.text.isNotEmpty) {
                       taskProvider.addTask(_controller.text);
